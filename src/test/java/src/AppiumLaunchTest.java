@@ -37,11 +37,8 @@ public class AppiumLaunchTest {
         //DEBUG PURPOSE ONLY
 
         Thread.sleep(3000);
-//        try {
-//            Thread.sleep(3000);
-//        } catch (InterruptedException e) {
-//            throw new RuntimeException(e);
-//        }
+
+        driver.quit();
 
     }
 }
