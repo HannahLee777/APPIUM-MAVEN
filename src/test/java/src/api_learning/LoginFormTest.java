@@ -20,9 +20,8 @@ public class LoginFormTest {
         try {
             //Navigate to login Form
             MobileElement navLoginBtnElem = appiumDriver.findElement(MobileBy.AccessibilityId("Login"));
-
-
             navLoginBtnElem.click();
+
             // Find login form elements
             MobileElement emailInputElem = appiumDriver.findElement(MobileBy.AccessibilityId("input-email"));
             MobileElement passwordInputElem = appiumDriver.findElement(MobileBy.AccessibilityId("input-password"));
